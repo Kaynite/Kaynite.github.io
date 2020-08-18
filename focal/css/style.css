@@ -34,7 +34,7 @@ body {
 /*-------------Header-----------*/
 
 .header {
-    background-image: url(images/slider.jpg) no-repeat;
+    background-image: url("images/slider.jpg") no-repeat;
     background-size: cover;
     height: 100vh;
     text-align: center;
