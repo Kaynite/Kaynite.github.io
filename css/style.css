@@ -34,6 +34,16 @@ section {
   color: #cfcfcf;
 }
 
+.dev-alert {
+  background-color: #303030;
+  text-align: center;
+  padding: 10px 0;
+  font-size: 16px;
+}
+.dev-alert span {
+  color: #ff4e4e;
+}
+
 .navbar {
   display: flex;
   align-items: center;
@@ -234,7 +244,7 @@ section {
   overflow: hidden;
   border-radius: 15px;
 }
-#projects .project-box img {
+#projects .project-box > img {
   width: 100%;
   object-fit: cover;
   object-position: top;
@@ -277,7 +287,7 @@ section {
   font-size: 45px;
 }
 #projects .project-box .project-details .project-details-content .project-info h3 {
-  font-size: 25px;
+  font-size: 20px;
 }
 #projects .project-box .project-details .project-details-content .project-info ul {
   margin-bottom: 10px;
@@ -299,6 +309,11 @@ section {
   display: inline-block;
   margin-top: 10px;
   margin-right: 20px;
+}
+#projects .project-box .project-details .project-details-content .project-info .project-action {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
 }
 #projects .project-box .project-details .project-details-content .project-imgs {
   padding-left: 10px;
