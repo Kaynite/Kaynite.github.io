@@ -1,0 +1,17 @@
+{
+    {
+      "title": "Timezone",
+      "description": "An e-commerce application with Admin Panel created using Laravel Framework.",
+      "skills": ["HTML", "CSS", "JavaScript", "PHP", "MySql", "Laravel"],
+      "cover": "@/assets/images/Timezone.jpg",
+      "hasSourceCode": true,
+      "sourceCode": "https://github.com/Kaynite/Timezone",
+      "hasPreview": false,
+      "preview": "",
+      "images": ["Timezone.jpg", "Timezone2.jpg"],
+      "isVisible": false
+    }
+    {
+      "title": "Larablog"
+    }
+}
